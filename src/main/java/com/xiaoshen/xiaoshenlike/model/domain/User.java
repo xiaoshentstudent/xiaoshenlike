@@ -23,7 +23,7 @@ public class User implements Serializable {
     /**
      * 
      */
-    private String username;
+    private String userName;
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
