@@ -24,7 +24,7 @@ public class Blog implements Serializable {
     /**
      * 
      */
-    private Long userid;
+    private Long userId;
 
     /**
      * 标题
@@ -34,7 +34,7 @@ public class Blog implements Serializable {
     /**
      * 封面
      */
-    private String coverimg;
+    private String coverImg;
 
     /**
      * 内容
@@ -44,17 +44,17 @@ public class Blog implements Serializable {
     /**
      * 点赞数
      */
-    private Integer thumbcount;
+    private Integer thumbCount;
 
     /**
      * 创建时间
      */
-    private Date createtime;
+    private Date createTime;
 
     /**
      * 更新时间
      */
-    private Date updatetime;
+    private Date updateTime;
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
