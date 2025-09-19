@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("blog")
+@RequestMapping("/blog")
 public class BlogController {  
     @Resource
     private BlogService blogService;

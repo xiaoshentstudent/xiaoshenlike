@@ -16,6 +16,7 @@ spring:
       timeout: 5000
       port: 6379
 
+
 # mybatis-plus
 mybatis-plus:
   configuration:
