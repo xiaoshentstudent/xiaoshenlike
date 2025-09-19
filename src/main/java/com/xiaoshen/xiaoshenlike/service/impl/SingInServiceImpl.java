@@ -32,6 +32,7 @@ public class SingInServiceImpl implements SingInService {
 			// 没有签到则进行签到
 			return bitSet.set(day);
 		}
+		// todo 签到成功数据保存到数据库
 		return true;
 	}
 
